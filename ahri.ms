@@ -2,6 +2,6 @@
 <customMapSource>
  <name>DGGS AK Hi-res</name>
  <minZoom>0</minZoom>
- <maxZoom>25</maxZoom>
+ <maxZoom>20</maxZoom>
  <url>https://geoportal.alaska.gov/arcgis/rest/services/ahri_2020_rgb_cache/MapServer/tile/{$z}/{$y}/{$x}?blankTile=false</url>
 </customMapSource>
