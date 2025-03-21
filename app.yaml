@@ -1,5 +1,4 @@
-runtime: php55
-api_version: 1
+runtime: php83
 
 handlers:
 - url: /galileo-navionics-boating.ms
@@ -25,5 +24,10 @@ handlers:
   static_files: \1
   upload: .+\.png$
 
+- url: /(.+\.jpg)$
+  static_files: \1
+  upload: .+\.jpg$
+
 - url: /
-  script: index.html
+  static_files: index.html
+  upload: index\.html
